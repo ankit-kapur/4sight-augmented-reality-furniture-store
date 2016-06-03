@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/AnkitChairScene.unity
-  isLoaded: 1
-  isActive: 1
