@@ -3,10 +3,11 @@ using System.Collections;
 
 public class furnPrice : MonoBehaviour {
 	public int price;
+	public string title;
+	public string description;
 
 	// Use this for initialization
 	void Start () {
-		price = 20;
 	}
 	
 	// Update is called once per frame

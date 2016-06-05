@@ -3,7 +3,7 @@ Temp
 Library/metadata/*
 .bin
 .info
-Library/metadata
+.DS_Store
 
 /[Ll]ibrary/
 /[Tt]emp/

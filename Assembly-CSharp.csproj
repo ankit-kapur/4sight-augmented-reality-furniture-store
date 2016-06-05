@@ -71,6 +71,7 @@
      <Compile Include="Assets\LeanTouch\Scripts\LeanFinger.cs" />
      <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
      <Compile Include="Assets\OnTap.cs" />
+     <Compile Include="Assets\OurScripts\MoveScriptAnkit.cs" />
      <Compile Include="Assets\Scripts\VBMenuOptions.cs" />
      <Compile Include="Assets\Scripts\VBSoccerballEventHandler.cs" />
      <Compile Include="Assets\Scripts\VirtualButtonEventHandler.cs" />
@@ -113,9 +114,13 @@
      <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+     <Compile Include="Assets\cubeRotate.cs" />
      <Compile Include="Assets\dmText.cs" />
      <Compile Include="Assets\furnPrice.cs" />
      <Compile Include="Assets\global_stuff.cs" />
+     <Compile Include="Assets\init.cs" />
+     <Compile Include="Assets\panelToggleScript.cs" />
+     <Compile Include="Assets\spinningCube.cs" />
      <None Include="Assets\StreamingAssets\QCAR\awsfraud.xml" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\link.xml" />
