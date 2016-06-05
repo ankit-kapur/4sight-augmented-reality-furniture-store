@@ -33,7 +33,9 @@ public class OnTap : MonoBehaviour
 
 			/* Set this furniture as the selected one */
 			bool isActive = false;
-			if (global_stuff.selectedFurniture == null) {
+			if (global_stuff.selectedFurniture == null 
+				|| (global_stuff.selectedFurniture != null 
+					&& !global_stuff.selectedFurniture.Equals(gameObject.name))) {
 				isActive = true;
 				global_stuff.selectedFurniture = gameObject.name;
 			} else {

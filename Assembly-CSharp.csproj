@@ -114,6 +114,7 @@
      <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+     <Compile Include="Assets\changeMaterial.cs" />
      <Compile Include="Assets\cubeRotate.cs" />
      <Compile Include="Assets\dmText.cs" />
      <Compile Include="Assets\furnPrice.cs" />

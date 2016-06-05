@@ -43,13 +43,11 @@ public class dmText : MonoBehaviour {
 				furnPrice price = obj.GetComponent<furnPrice> ();
 				sumPrice += price.price;
 				if (obj.activeSelf == true) {
-					text.text = text.text + "------------------\n";
-					text.text = text.text + name + "\n";
-					text.text = text.text + "$" + price.toString () + "\n";
-					text.text = text.text + (int)vec.x + "\' x " + (int)vec.y + "\' x " + (int)vec.z + "\'\n";
+					text.text = text.text + "Price: $" + price.toString () + "\n";
+					text.text = text.text + "Dimensions: " + (int)vec.x + "\' x " + (int)vec.y + "\' x " + (int)vec.z + "\'\n";
 				}
 			}
-			text.text = "Furniture details\n" + "Price: $" + sumPrice.ToString () + "\n" + text.text; 
+			//text.text = "Furniture details\n" + "Price: $" + sumPrice.ToString () + "\n" + text.text; 
 		}
 	}
 }
