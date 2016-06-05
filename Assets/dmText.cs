@@ -17,7 +17,11 @@ public class dmText : MonoBehaviour {
 	
 	// Update is called once per frame
 	public void Update () {
-		GameObject[] objs = GameObject.FindGameObjectsWithTag ("furniture");
+//		GameObject[] objs = GameObject.FindGameObjectsWithTag ("furniture");
+		string selectedFurniture = global_stuff.selectedFurniture;
+
+
+			
 
 		/*
 		GameObject arCamera = GameObject.Find ("ARCamera");
@@ -30,7 +34,10 @@ public class dmText : MonoBehaviour {
 		if (text != null) {
 			text.text = "";
 			int sumPrice = 0;
-			foreach (GameObject obj in objs) {
+//			foreach (GameObject obj in objs) {
+			if (selectedFurniture != null) {
+				GameObject obj = GameObject.Find (selectedFurniture);
+				
 				Vector3 vec = obj.GetComponent<Renderer> ().bounds.size;
 				string name = obj.name;
 				furnPrice price = obj.GetComponent<furnPrice> ();

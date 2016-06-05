@@ -14,8 +14,8 @@ public class init : MonoBehaviour {
 		objectsToToggle.Add ("Fabric2Button");
 		objectsToToggle.Add ("Fabric3Button");
 		objectsToToggle.Add ("textCanvas");
-		objectsToToggle.Add ("chairToggle");
-		objectsToToggle.Add ("tableToggle");
+//		objectsToToggle.Add ("chairToggle");
+//		objectsToToggle.Add ("tableToggle");
 		objectsToToggle.Add ("cartButton");
 		objectsToToggle.Add ("ItemTitle");
 		objectsToToggle.Add ("ItemDescription");
