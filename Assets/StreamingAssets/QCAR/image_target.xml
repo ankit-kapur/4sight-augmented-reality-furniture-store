@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="stones" size="50.000000 35.000000" />
+    <ImageTarget name="complex_flower_pattern" size="50.000000 28.691982" />
+    <ImageTarget name="maxresdefault" size="50.000000 28.125000" />
     <ImageTarget name="cod_mw3_360_final1" size="50.000000 70.642204" />
     <ImageTarget name="target1" size="50.000000 33.333332" />
   </Tracking>

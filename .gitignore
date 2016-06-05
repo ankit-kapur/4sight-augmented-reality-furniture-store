@@ -3,6 +3,7 @@ Temp
 Library/metadata/*
 .bin
 .info
+Library/metadata
 
 /[Ll]ibrary/
 /[Tt]emp/

@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2DF29429-ACDC-1D11-B8DF-9D0C866F4233}</ProjectGuid>
+    <ProjectGuid>{ED76169E-6BBF-9F1D-4875-96C9DD72F6F3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CartItemNo.cs" />
      <Compile Include="Assets\Common\CameraSettings.cs" />
      <Compile Include="Assets\Common\InitErrorHandler.cs" />
      <Compile Include="Assets\Common\MenuAnimator.cs" />
@@ -65,9 +66,11 @@
      <Compile Include="Assets\LeanTouch\Examples\SimpleSwipe.cs" />
      <Compile Include="Assets\LeanTouch\Examples\SimpleSwipeDirection.cs" />
      <Compile Include="Assets\LeanTouch\Examples\SimpleTap.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\SimpleTapCornerBut.cs" />
      <Compile Include="Assets\LeanTouch\Examples\SimpleZoom.cs" />
      <Compile Include="Assets\LeanTouch\Scripts\LeanFinger.cs" />
      <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
+     <Compile Include="Assets\OnTap.cs" />
      <Compile Include="Assets\Scripts\VBMenuOptions.cs" />
      <Compile Include="Assets\Scripts\VBSoccerballEventHandler.cs" />
      <Compile Include="Assets\Scripts\VirtualButtonEventHandler.cs" />
@@ -110,19 +113,24 @@
      <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+     <Compile Include="Assets\dmText.cs" />
+     <Compile Include="Assets\furnPrice.cs" />
+     <Compile Include="Assets\global_stuff.cs" />
+     <None Include="Assets\StreamingAssets\QCAR\awsfraud.xml" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\Chairs and sofas pack\Readme.txt" />
      <None Include="Assets\StreamingAssets\QCAR\StonesAndWood.xml" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\readme_SDK.txt" />
-     <None Include="Assets\StreamingAssets\QCAR\image_target.xml" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\image_target.xml" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="UnityEngine.Networking">
@@ -132,7 +140,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
- <HintPath>/Users/ankkapur/Desktop/4sight/ARDemo/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>/Users/ankkapur/Desktop/4sight/4sight-augmented-reality-furniture-store/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
